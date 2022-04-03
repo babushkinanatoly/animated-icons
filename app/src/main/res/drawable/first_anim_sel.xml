@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/state_selected"
+        android:drawable="@drawable/ic_rotation_3d"
+        android:state_selected="true"
+        />
+    <item
+        android:id="@+id/state_default"
+        android:drawable="@drawable/ic_rotation_3d"
+        />
+    <transition
+        android:drawable="@drawable/rotation_3d_anim"
+        android:fromId="@id/state_default"
+        android:toId="@id/state_selected"
+        />
+</animated-selector>

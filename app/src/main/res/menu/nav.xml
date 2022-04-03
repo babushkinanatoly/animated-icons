@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_nav_1"
+        android:icon="@drawable/first_anim_sel"
+        android:title="First"
+        />
+
+    <item
+        android:id="@+id/menu_nav_2"
+        android:icon="@drawable/second_anim_sel"
+        android:title="Second"
+        />
+
+</menu>
